@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body {}
+
+#back {
+  background: #eee;
+  margin: 0;
+  height: auto;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 30px 0 40px rgba(1, 1, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+#landing {
+  background: #fff;
+}
+
+#landing-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#landing-text h2 {
+  color: #888;
+}
+
+#landing-image {
+  background-image: url(../img/cam.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+.bs {
+  padding: 0.5rem 2rem;
+  border: 1px #ccc solid;
+  display: inline-block;
+  margin: 2rem 0 0;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #3333;
+  transition: background 500ms ease;
+}
+
+.bs:hover {
+  background: #f4f4f4;
+}
+
+#header {
+  padding: 1.5rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+#header h2 {
+  border-left: dotted 1px #fff;
+  border-right: dotted 1px #fff;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.caption {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: auto;
+  color: #333;
+}
+
+footer h3 {
+  font-size: 3rem'
+ margin-bottom:0;
+}
+
+/*Products CSS*/
+
+.navbar {
+  background-color: #3f4040;
+}
+
+#showcase {
+  background-image: url("../img/cam2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.color {
+  background-color: #3f4040;
+  color: #fff;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.icons {
+  font-size: 6rem;
+}
+
+a {
+  color: #3f4040;
+}
+
+@media only screen and (max-width: 500px) {
+  #showcase {
+    width: 100%;
+  }
+}
+
+/*end  */
+
+/* filter css */
+
+.custom-file {
+  padding-top: 20px;
+  margin-top: 30px;
+}
+
+#canvas {
+  margin: auto;
+  background: #ececec;
+  width: 100%;
+}
+
+.btn-disabled {
+  color: #fff !important;
+}
+
+/* end */
+
+/* end */
+
+/* elegant css */
+
+#elegant {
+  background: rgba(0, 0, 0, 0.9);
+  margin: 0;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.showcase {
+  content: '';
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+}
+
+.contain {
+  max-width: 960px;
+  margin: auto;
+  overflow: hidden;
+  padding: 4rem 1rem;
+}
+
+.view-3 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.view-2 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.dark {
+  background: #333;
+  color: #f4f4f4;
+}
+
+footer.center {
+  padding: 2.2rem;
+}
+
+footer.center p {
+  margin: 0;
+}
+
+/* end */
+
+/*Screen sizes 500px and up*/
+
+@media (min-width:500px) {
+  #landing {
+    display: flex;
+  }
+  #landing-text {
+    height: 100vh;
+  }
+  #landing-image {
+    height: 100vh;
+  }
+}
+
+/*screen sizes 700px and up*/
+
+@media(min-width:700px) {
+  .bs {
+    padding: 1rem 3rem;
+  }
+}
+
+/*elegant media queries */
+
+/* small screen */
+
+@media(max-width: 560px) {
+  .showcase::after {
+    height: 50vh;
+  }
+  .content {
+    top: 5%;
+    margin-top: 5px;
+  }
+  .content .logo {
+    height: 140px;
+    width: 140px;
+  }
+  .content .text {
+    display: none;
+  }
+  .grid-3, .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .services div {
+    border-bottom: #333 dashed 1px;
+    padding: 1.2rem 1rem;
+  }
+}
+
+/*landscape*/
+
+@media(max-height: 500px) {
+  .content .title, .content .text {
+    display: none;
+  }
+  .content {
+    top: 0;
+  }
+}
+
+/* end */
