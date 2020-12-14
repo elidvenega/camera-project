@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Online Image Filter</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 
 
@@ -15,9 +15,10 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand text-white" href="index.html">Photography</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
@@ -27,7 +28,7 @@
           <a class="nav-link text-white" href="filter.html">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="elegant.html">Elegant</a>
+          <a class="nav-link text-white" href="about.html">About</a>
         </li>
       </ul>
     </div>
@@ -46,7 +47,8 @@
           <div class="col-md-3">
             <div class="btn-group btn-group-sm">
               <button class="filter-btn brightness-remove btn btn-info " type="button" name="button">-</button>
-              <button class="button btn btn-secondary btn-disabled" type="button" name="button" disabled>Brightness</button>
+              <button class="button btn btn-secondary btn-disabled" type="button" name="button"
+                disabled>Brightness</button>
               <button class="filter-btn brightness-add btn btn-info" type="button" name="button">+</button>
             </div>
 
@@ -54,7 +56,8 @@
           <div class="col-md-3">
             <div class="btn-group btn-group-sm">
               <button class="filter-btn contrast-remove btn btn-info " type="button" name="button">-</button>
-              <button class="button btn btn-secondary btn-disabled" type="button" name="button" disabled>Contrast</button>
+              <button class="button btn btn-secondary btn-disabled" type="button" name="button"
+                disabled>Contrast</button>
               <button class="filter-btn contrast-add btn btn-info" type="button" name="button">+</button>
             </div>
 
@@ -62,7 +65,8 @@
           <div class="col-md-3">
             <div class="btn-group btn-group-sm">
               <button class="filter-btn saturation-remove btn btn-info " type="button" name="button">-</button>
-              <button class="button btn btn-secondary btn-disabled" type="button" name="button" disabled>Saturation</button>
+              <button class="button btn btn-secondary btn-disabled" type="button" name="button"
+                disabled>Saturation</button>
               <button class="filter-btn saturation-add btn btn-info" type="button" name="button">+</button>
             </div>
 
@@ -70,7 +74,8 @@
           <div class="col-md-3">
             <div class="btn-group btn-group-sm">
               <button class="filter-btn vibrance-remove btn btn-info " type="button" name="button">-</button>
-              <button class="button btn btn-secondary btn-disabled" type="button" name="button" disabled>Vibrance</button>
+              <button class="button btn btn-secondary btn-disabled" type="button" name="button"
+                disabled>Vibrance</button>
               <button class="filter-btn vibrance-add btn btn-info" type="button" name="button">+</button>
             </div>
 
@@ -98,7 +103,8 @@
         <!--row-->
         <div class="row mb-3">
           <div class="col-md-3">
-            <button class="filter-btn crossprocess-add btn btn-dark btn-block" type="button" name="button">Cross Process</button>
+            <button class="filter-btn crossprocess-add btn btn-dark btn-block" type="button" name="button">Cross
+              Process</button>
 
           </div>
           <div class="col-md-3">
@@ -106,11 +112,13 @@
 
           </div>
           <div class="col-md-3">
-            <button class="filter-btn nostalgia-add btn btn-dark btn-block" type="button" name="button">Nostalgia</button>
+            <button class="filter-btn nostalgia-add btn btn-dark btn-block" type="button"
+              name="button">Nostalgia</button>
 
           </div>
           <div class="col-md-3">
-            <button class="filter-btn hermajesty-add btn btn-dark btn-block" type="button" name="button">Her Majesty</button>
+            <button class="filter-btn hermajesty-add btn btn-dark btn-block" type="button" name="button">Her
+              Majesty</button>
 
           </div>
         </div>
@@ -118,27 +126,30 @@
         <div class="row my-5">
           <div class="col-md-6">
             <button id="download-btn" class="btn btn-primary btn-block">
-            Download Image
-          </button>
+              Download Image
+            </button>
 
           </div>
           <div class="col-md-6">
             <button id="revert-btn" class="btn btn-danger btn-block">
-          Remove Filters
-          </button>
+              Remove Filters
+            </button>
 
           </div>
         </div>
       </div>
     </div>
-</div>
+  </div>
 
   <script src="js/filter.js"></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/camanjs/4.1.2/caman.full.min.js'></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
 </body>
