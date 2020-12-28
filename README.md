@@ -1,1 +1,0 @@
-# camera-project.github.io
