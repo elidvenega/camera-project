@@ -65,12 +65,12 @@ main {
 
 .bs {
   padding: 0.5rem 2rem;
-  border: 1px #ccc solid;
+  border: 1px #333 solid;
   display: inline-block;
   margin: 2rem 0 0;
   border-radius: 50px;
   text-decoration: none;
-  color: #3333;
+  color: #333;
   transition: background 500ms ease;
 }
 
